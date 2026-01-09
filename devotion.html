@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Devotion: New Song, New Heart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #f0f8ff, #e6f7ff);
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #007bff;
+        }
+        .section {
+            display: none;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+        .active {
+            display: flex;
+        }
+        #hook { background-image: url('https://images.unsplash.com/photo-1510915361894-db8b60106cb1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'); } /* Guitar */
+        #scripture { background-image: url('https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'); } /* Piano */
+        #points { background-image: url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'); } /* Drums */
+        #ponder { background-image: url('https://images.unsplash.com/photo-1515552726023-7125c8d07fb3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'); } /* Violin */
+        #challenge { background-image: url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'); } /* Drums (reused for variety) */
+        #end { background-image: url('https://images.unsplash.com/photo-1510915361894-db8b60106cb1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'); } /* Guitar */
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            font-size: 1.1em;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .scripture {
+            font-style: italic;
+            font-size: 1.2em;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .call-to-action {
+            font-weight: bold;
+            color: #ffeb3b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Weekly Devotion: New Song, New Heart</h1>
+        <p><strong>Date:</strong> January 10, 2026 | <strong>Scripture:</strong> Psalm 40:3 | <strong>Theme:</strong> Refreshing our worship for a new year.</p>
+        
+        <button id="startBtn">Start Presentation</button>
+        
+        <div class="section active" id="intro">
+            <h2>Welcome, Worshippers!</h2>
+            <p>Ready to refresh your worship? Scroll down and let's dive in together.</p>
+        </div>
+        
+        <div class="section" id="hook">
+            <h2>1. What's New in 2026?</h2>
+            <p>Hey, you! It's 2026—resolutions fading? In Music Ministry, we're chasing a <em>new song</em>, not just a new leaf.</p>
+            <p class="call-to-action">Think: Has your worship turned into a rerun? Same chords, same words, no heart? Let's change that!</p>
+        </div>
+        
+        <div class="section" id="scripture">
+            <h2>2. The Scripture Read </h2>
+            <p>Listen up—let's hear Psalm 40:3</p>
+            <div class="scripture">"He has put a new song in my mouth, praise to our God; many will see it and fear, and will trust in the Lord."</div>
+            <p class="call-to-action">Feel that? God's giving you a fresh tune!</p>
+        </div>
+        
+        <div class="section" id="points">
+            <h2>3. The Talking Points: The "3S"</h2>
+            <p><strong>The Source (The "He"):</strong> Your new song comes from God, not gadgets. Stale worship? Time for more Him!</p>
+            <p><strong>The Sound (The "New Song"):</strong> It's a fresh view of His mercies. Sing that old hymn like it's your story this week.</p>
+            <p><strong>The Spectacle (The "Many Will See"):</strong> People watch your worship first. Make it real—they'll trust God too!</p>
+            <p class="call-to-action">You in? Let's make worship alive!</p>
+        </div>
+        
+        <div class="section" id="ponder">
+            <h2>4. Point to Ponder: Group Discussion</h2>
+            <p><strong>Question:</strong> How will <em>you</em> keep worship fresh in 2026—not just routine?</p>
+            <p>Share with someone: Pray over setlists, dig into lyrics, check your heart before performing.</p>
+            <p class="call-to-action">Speak up—what's one way you'll try this week?</p>
+        </div>
+        
+        <div class="section" id="challenge">
+            <h2>5. The "Grace Baptist" Challenge</h2>
+            <p>This week, find one thing God did for <em>you</em> in the last 7 days. Sing/play from that gratitude—keep the song new!</p>
+            <p class="call-to-action">You ready? Go refresh your worship!</p>
+        </div>
+        
+        <div class="section" id="end">
+            <h2>THANK YOU</h2>
+            <p>Thanks for joining, friends! May your worship spark joy and draw others to God in 2026.</p>
+        </div>
+    </div>
+
+    <script>
+        let currentSection = 0;
+        const sections = document.querySelectorAll('.section');
+        
+        document.getElementById('startBtn').addEventListener('click', () => {
+            advanceSection();
+        });
+        
+        function advanceSection() {
+            sections.forEach(sec => sec.classList.remove('active'));
+            if (currentSection < sections.length - 1) {
+                currentSection++;
+                sections[currentSection].classList.add('active');
+            }
+        }
+        
+        document.addEventListener('click', (e) => {
+            if (e.target.tagName !== 'BUTTON') advanceSection();
+        });
+    </script>
+</body>
+</html>
